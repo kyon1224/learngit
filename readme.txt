@@ -6,3 +6,6 @@ Git is free software.
 要随时掌握工作区的状态，使用git status命令。
 
 如果git status告诉你有文件被修改过，用git diff可以查看修改内容。
+从现在起，只要本地作了提交，就可以通过命令：
+$ git push origin master
+把本地master分支的最新修改推送至GitHub，现在，你就拥有了真正的分布式版本库！
